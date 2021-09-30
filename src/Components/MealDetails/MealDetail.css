@@ -1,0 +1,14 @@
+.img-bg {
+    position: relative;
+}
+
+.img-bg::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(4, 6, 114, 0.562), rgba(0, 0, 0, 0.705));
+    backdrop-filter: blur(5px);
+}
